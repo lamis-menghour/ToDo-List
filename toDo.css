@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300&family=Gajraj+One&family=Nothing+You+Could+Do&family=Open+Sans:wght@300&family=Playfair+Display&family=Raleway:wght@300&family=Rubik:wght@300&display=swap');
+
+* {
+    font-family: 'Shantell Sans', cursive;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: max-content;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container {
+    background-color: rgba(225, 148, 59, 0.772);
+    height: max-content;
+    width: 400px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 10px;
+}
+
+.ToDoTitle {
+    color: rgb(80, 35, 35);
+    font-size: 26px;
+}
+
+.parent {
+    height: max-content;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 10px;
+    align-items: center;
+    position: relative;
+}
+
+.ToDo {
+    /* padding: 10px 30px; */
+    width: max-content;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 100px;
+}
+
+.createToDo {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 2%;
+    width: 90%;
+}
+
+#checkBoxToDo {
+    accent-color: rgba(80, 35, 35);
+}
+
+.whatToDoText {
+    background-color: rgba(80, 35, 35, 0.436);
+    color: beige;
+    border-radius: 2px;
+    border: none;
+    height: 20%;
+    width: 130%;
+    font-size: 24px;
+}
+
+.removeToDo {
+    color: white;
+    width: max-content;
+    height: max-content;
+}
+
+.removeToDo:hover {
+    color: rgb(80, 35, 35);
+}
+
+#addToDo {
+    color: white;
+    background-color: rgb(80, 35, 35);
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+
+#addToDo:hover {
+    color: rgb(80, 35, 35);
+    background-color: white;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: rgb(80, 35, 35);
+}
